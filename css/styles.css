@@ -1,0 +1,133 @@
+body {
+  margin: 0;
+  text-align: center;
+  font-family: 'Merriweather', serif;
+}
+h1 {
+  font-size: 5.625rem;
+  color: #66BFBF;
+  margin-top: 0;
+  font-family: 'Sacramento', cursive;
+}
+h2 {
+  font-size: 2rem;
+  color: #66BFBF;
+  margin: 50px auto;
+  font-family: 'Montserrat', sans-serif;
+}
+.designation {
+  line-height: 2;
+  font-weight: bold;
+  margin: 35px auto;
+  padding-bottom: 60px;
+  color: rgb(136, 17, 72);
+}
+
+h3 {
+  font-family: 'Montserrat', sans-serif;
+  color: #11999E;
+}
+a {
+  color: #11999E;
+}
+hr {
+  border-width: 5px 0 0;
+  border-style: dotted;
+  color: #b9cccc;
+  width: 5%;
+}
+.span-underline {
+  text-decoration: underline;
+  text-decoration-color: rgb(0, 0, 0);
+  color: black;
+  font-weight: bold;
+}
+
+/* parent of top-cloud , bottom-cloud*/
+.top-container {
+  background-color: #E4F9F5;
+  position: relative;
+  padding-top: 140px;
+}
+.top-cloud {
+  position: absolute;
+  right: 500px;
+  top: 50px;
+}
+.bottom-cloud {
+  position: absolute;
+  left: 500px;
+  bottom: 320px;
+}
+.intro {
+  width: 30%;
+  margin: 0 auto 50px auto;
+}
+.profilepic {
+  width: 200px;
+  border-bottom-right-radius: 50px;
+  margin-top: 50px;
+}
+/* skills */
+.myskills {
+  text-decoration: underline;
+  margin-bottom: -40px;
+}
+.skill-row {
+  width: 50%;
+  margin: 125px auto 180px auto;
+  text-align: left;
+  line-height: 2;
+}
+/* skills > images */
+.skill-image {
+  width: 25%;
+}
+.web, .excel {
+  float: left;
+  margin-right: 33px;
+}
+.java {
+  float: right;
+  margin-left: 33px;
+}
+/* contact me button */
+.contact-me {
+  margin: 50px 0;
+}
+.contact-me h3 {
+  margin-bottom: 50px;
+}
+.contact-btn {
+  text-decoration: none;
+  background: linear-gradient(rgba(129, 30, 211, 0.8), rgba(211, 32, 121, 0.8));
+  padding: 10px;
+  color: white;
+  border-radius: 4px;
+}
+.contact-btn:hover {
+  background: linear-gradient(rgb(211, 32, 121), rgb(129, 30, 211));
+  color: #eaf823;
+}
+/* bottom-container */
+.bottom-container {
+  padding: 50px 0 20px;
+  background-color:#66BFBF;
+  line-height: 3;
+}
+.footer-link {
+  font-family: 'Montserrat', sans-serif;
+  text-decoration: none;
+  color:rgb(36, 123, 158);
+  margin: 10px 20px;
+  font-weight: bold;
+}
+.footer-link:hover {
+  text-decoration: underline;
+  text-decoration-color:rgb(0, 0, 0);
+  color: #ffffff;
+}
+.copyright {
+  color: rgb(241, 236, 236);
+  font-size: 0.75rem;
+}
