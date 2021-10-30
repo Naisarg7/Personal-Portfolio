@@ -7,6 +7,7 @@ h1 {
   font-size: 5.625rem;
   color: #66BFBF;
   margin-top: 0;
+  margin-bottom: 15px;
   font-family: 'Sacramento', cursive;
 }
 h2 {
@@ -18,7 +19,7 @@ h2 {
 .designation {
   line-height: 2;
   font-weight: bold;
-  margin: 35px auto;
+  margin: 10px auto 0 auto;
   padding-bottom: 60px;
   color: rgb(136, 17, 72);
 }
@@ -42,7 +43,10 @@ hr {
   color: black;
   font-weight: bold;
 }
-
+.developer {
+  width: 40px;
+  height: auto;
+}
 /* parent of top-cloud , bottom-cloud*/
 .top-container {
   background-color: #E4F9F5;
@@ -51,20 +55,19 @@ hr {
 }
 .top-cloud {
   position: absolute;
-  right: 500px;
+  right: 20px;
   top: 50px;
+  width: 30%;
 }
-.bottom-cloud {
-  position: absolute;
-  left: 500px;
-  bottom: 320px;
+.mountain {
+  width: 70%;
 }
 .intro {
   width: 30%;
   margin: 0 auto 50px auto;
 }
 .profilepic {
-  width: 200px;
+  width: 130px;
   border-bottom-right-radius: 50px;
   margin-top: 50px;
 }
@@ -75,7 +78,7 @@ hr {
 }
 .skill-row {
   width: 50%;
-  margin: 125px auto 180px auto;
+  margin: 80px auto 50px auto;
   text-align: left;
   line-height: 2;
 }
@@ -130,4 +133,29 @@ hr {
 .copyright {
   color: rgb(241, 236, 236);
   font-size: 0.75rem;
+}
+@media screen and (min-width: 780px) {
+  .mountain {
+  margin: auto;
+  width: 598px;
+  height:auto;
+  }
+  .top-cloud {
+    position: absolute;
+    width: 150px;
+    height: auto;
+    right: 500px;
+    top: 50px;
+  }
+  .profilepic {
+    width: 200px;
+    border-bottom-right-radius: 50px;
+    margin-top: 50px;
+  }
+  .skill-row {
+    width: 50%;
+    margin: 125px auto 180px auto;
+    text-align: left;
+    line-height: 2;
+  }
 }
